@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Мокрый нос · груминг собак и кошек</title>
+<meta name="description" content="Груминг-салон «Мокрый нос» в {{город}}: стрижка, мытьё и когти для собак и кошек. Цену называем по фото питомца до записи – на выдаче она та же.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Мокрый нос">
+<meta property="og:title" content="Груминг собак и кошек в {{город}}: цена известна заранее">
+<meta property="og:description" content="Стрижка, мытьё и когти для собак и кошек. Один мастер от начала до конца, цена по фото до записи.">
+<meta property="og:url" content="{{адрес сайта}}">
+<meta property="og:image" content="{{адрес сайта}}/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/hero-b.webp" fetchpriority="high" media="(min-width: 861px)">
+<link rel="preload" as="image" href="assets/hero-b-m.webp" fetchpriority="high" media="(max-width: 860px)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cellipse cx=%2716%27 cy=%2721%27 rx=%277%27 ry=%276%27 fill=%27%232b2a31%27/%3E%3Ccircle cx=%277%27 cy=%2713%27 r=%273%27 fill=%27%232b2a31%27/%3E%3Ccircle cx=%2713%27 cy=%278%27 r=%273%27 fill=%27%232b2a31%27/%3E%3Ccircle cx=%2719%27 cy=%278%27 r=%273%27 fill=%27%232b2a31%27/%3E%3Ccircle cx=%2725%27 cy=%2713%27 r=%273%27 fill=%27%232b2a31%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vibe.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Мокрый нос","description":"Груминг-салон: стрижка, мытьё и когти для собак и кошек. Цена по фото питомца до записи.","url":"{{адрес сайта}}","image":"{{адрес сайта}}/assets/og.jpg","telephone":"{{телефон}}","openingHours":"{{часы}}","address":{"@type":"PostalAddress","streetAddress":"{{адрес}}","addressLocality":"{{город}}","addressCountry":"RU"},"priceRange":"от {{цена}} ₽","sameAs":["{{ссылка-карты}}"]}
+</script>
+<style>
+  /* ---- тема: палитра А «Крем + графит» ---------------------------------- */
+  .v-page {
+    --v-canvas: #f4efe6; --v-surface: #fbf8f2;
+    --v-ink: #23222a; --v-ink-soft: #625d66;
+    --v-accent: #2b2a31; --v-accent-ink: #f6f1e8;
+    --v-font-display: "Unbounded", "Arial Black", system-ui, sans-serif;
+    --v-font-text: "Golos Text", "Segoe UI", system-ui, sans-serif;
+    --v-shadow-color: 70 60 45;
+    --v-e1: 0 1px 2px rgb(var(--v-shadow-color) / .08), 0 8px 22px rgb(var(--v-shadow-color) / .10);
+    --v-e2: 0 2px 6px rgb(var(--v-shadow-color) / .10), 0 22px 54px rgb(var(--v-shadow-color) / .16);
+    --v-radius: 12px;
+    --v-display-weight: 600;
+    --v-track-tight: -0.02em;
+    --v-t-xs: clamp(0.8125rem, 0.79rem + 0.15vw, 0.85rem);
+    --v-t-sm: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+    --v-canvas-85: color-mix(in oklab, var(--v-canvas) 85%, transparent);
+    --v-canvas-60: color-mix(in oklab, var(--v-canvas) 60%, transparent);
+    --v-accent-10: color-mix(in oklab, var(--v-accent) 10%, transparent);
+  }
+  html, body { background: #f4efe6; }
+  .v-page .v-display { line-height: 1.04; }
+  .v-page .v-lede { font-weight: 400; }
+  .v-page .v-label { font-weight: 500; }
+  .v-page .v-btn { font-size: var(--v-t-base); font-weight: 600; }
+  .v-page h3 { font-weight: 600; }
+  @media (max-width: 860px) {
+    .hero__tel, .plist .note, .plist .time, .incl li span, .terms, .ba__cap, .mas__facts, .step span, .reviews__meta, .reviews__rating, .reviews__fact,
+    .form__note, .form label span, .close__meta, .foot { font-size: .95rem; }
+    .v-page .v-label { font-size: .9375rem; }
+  }
+
+  /* ---- шапка ------------------------------------------------------------ */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: flex; align-items: center; justify-content: space-between;
+    padding: var(--v-3) var(--v-gutter); gap: var(--v-4);
+    background: linear-gradient(to bottom, var(--v-canvas-85), transparent);
+    transition: background-color .3s var(--v-ease-out), box-shadow .3s var(--v-ease-out); }
+  .bar.is-scrolled { background: var(--v-canvas-85); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: 0 1px 0 var(--v-hair); }
+  .bar__mark { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-base); letter-spacing: -.01em; text-decoration: none;
+    display: inline-flex; align-items: center; gap: .55em; min-height: 44px; white-space: nowrap; color: var(--v-ink); }
+  .bar__mark svg { width: 1.1em; height: 1.1em; fill: var(--v-accent); }
+  .bar__nav { display: flex; gap: var(--v-5); font-size: var(--v-t-sm); }
+  .bar__nav a { color: var(--v-ink); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
+  .bar__right { display: flex; align-items: center; gap: var(--v-4); }
+  .bar__tel { text-decoration: none; font-weight: 600; font-size: var(--v-t-sm); color: var(--v-ink); display: inline-flex; align-items: center; min-height: 44px; padding: 0 var(--v-2); }
+  @media (hover: hover) and (pointer: fine) { .bar__nav a:hover { text-decoration: underline; text-underline-offset: .2em; } }
+  @media (max-width: 1100px) { .bar__nav { display: none; } }
+  @media (max-width: 700px) {
+    .bar__tel { display: none; }
+    .bar .v-btn { padding: 0 1em; min-height: 44px; font-size: .95rem; }
+  }
+  @media (max-width: 860px) { .bar.is-scrolled { background: color-mix(in oklab, var(--v-canvas) 96%, transparent); } }
+
+  /* ---- 1 · hero, вариант Б: полноэкранный кадр салона со шторкой снизу -------- */
+  .hero { position: relative; min-height: 100svh; overflow: hidden; }
+  .hero__fig { position: absolute; inset: 0; margin: 0; }
+  .hero__fig img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 70%; }
+  .hero__copy { position: relative; z-index: 2; padding: clamp(6rem, 15vh, 9rem) var(--v-gutter) var(--v-8); max-width: min(52rem, 100%); }
+  .demo-for { display: inline-flex; align-items: center; gap: .6em; padding: .35em .9em .35em .35em; margin-bottom: var(--v-5);
+    border-radius: 999px; background: var(--v-canvas-85); box-shadow: 0 0 0 1px var(--v-hair); font-size: var(--v-t-sm); color: var(--v-ink); max-width: 100%; }
+  .demo-for img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex: none; }
+  .demo-for span { text-wrap: pretty; }
+  .hero__label { display: block; margin-bottom: var(--v-4); }
+  .hero__copy .v-display { font-size: clamp(2.1rem, 1.2rem + 2.6vw, 3.6rem); line-height: 1.02; text-wrap: balance; }
+  .hero__copy .v-lede { margin-top: var(--v-5); max-width: 44ch; }
+  .hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-6); }
+  .hero__tel { text-decoration: none; color: var(--v-ink); font-size: var(--v-t-sm); display: inline-flex; align-items: center; min-height: 44px; gap: .35em; }
+  .hero__tel b { font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .18em; }
+  .hero__wash { position: absolute; inset: 0; z-index: 1; pointer-events: none;
+    background: linear-gradient(to bottom, var(--v-canvas-60) 0%, transparent 55%); }
+  @media (max-width: 860px) {
+    .hero__copy { padding-top: 5rem; }
+    .hero__copy .v-display { font-size: clamp(1.6rem, 1.1rem + 2.6vw, 2rem); }
+    .hero__copy .v-lede { font-size: var(--v-t-base); margin-top: var(--v-4); }
+    .hero__label { margin-bottom: var(--v-3); }
+    .hero__cta { margin-top: var(--v-5); gap: var(--v-2) var(--v-5); }
+    .demo-for { margin-bottom: var(--v-4); font-size: .9rem; }
+    .demo-for img { width: 32px; height: 32px; }
+    .hero__fig img { object-position: 50% 100%; }
+  }
+  @media (max-width: 600px) and (max-height: 700px) { .hero__copy .v-lede { display: none; } }
+
+  /* ---- 2 · услуги и цены ------------------------------------------------- */
+  .prices { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, .6fr); gap: var(--v-9); align-items: start; }
+  .prices__head { display: grid; gap: var(--v-3); max-width: 46rem; margin-bottom: var(--v-6); }
+  .pgroup { margin-top: var(--v-6); font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-sm); color: var(--v-ink-soft); margin-bottom: var(--v-2); }
+  .plist li { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: var(--v-1) var(--v-6); align-items: baseline; padding: var(--v-4) 0; border-top: 1px solid var(--v-hair); }
+  .plist li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .plist .name { grid-row: 1; grid-column: 1; font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-base); line-height: 1.2; }
+  .plist .time { grid-row: 1; grid-column: 2; color: var(--v-ink-soft); font-size: var(--v-t-sm); white-space: nowrap; }
+  .plist .price { grid-row: 1; grid-column: 3; font-weight: 600; white-space: nowrap; min-width: 7ch; text-align: right; }
+  .plist .note { grid-row: 2; grid-column: 1 / span 3; font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 60ch; text-wrap: pretty; }
+  .terms { margin-top: var(--v-6); display: grid; gap: var(--v-3); font-size: var(--v-t-sm); max-width: 60ch; }
+  .terms li { display: grid; grid-template-columns: auto 1fr; gap: var(--v-3); align-items: baseline; }
+  .terms li::before { content: ""; width: 1.4rem; height: 1px; background: var(--v-accent); align-self: center; }
+  .terms b { font-weight: 600; }
+  .prices__aside { position: sticky; top: clamp(5rem, 12vh, 7rem); }
+  .incl { padding: var(--v-6); border-radius: var(--v-radius); background: var(--v-surface); box-shadow: var(--v-e2); display: grid; gap: var(--v-4); }
+  .incl li { padding: var(--v-3) 0; border-top: 1px solid var(--v-hair); display: grid; gap: .2em; }
+  .incl li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .incl li b { font-weight: 600; }
+  .incl li span { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  @media (max-width: 1100px) { .prices { grid-template-columns: minmax(0, 1.3fr) minmax(0, .8fr); gap: var(--v-7); } }
+  @media (max-width: 860px) {
+    .prices { grid-template-columns: 1fr; gap: var(--v-7); }
+    .prices__aside { position: static; }
+    .incl { padding: var(--v-5); }
+    .plist li { grid-template-columns: minmax(0, 1fr) auto; }
+    .plist .time { grid-row: 2; grid-column: 1; }
+    .plist .note { grid-row: 3; grid-column: 1 / span 2; }
+    .plist .price { grid-column: 2; }
+  }
+
+  /* ---- 3 · до / после: фирменный ход – скролл ведёт шторку «после» поверх «до» ---- */
+  .ba { height: 100%; display: grid; grid-template-rows: auto 1fr; gap: var(--v-5); padding: clamp(4.5rem, 11vh, 6.5rem) var(--v-gutter) clamp(2rem, 6vh, 4rem); }
+  .ba__head { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: var(--v-6); }
+  .ba__head .v-label { display: block; margin-bottom: var(--v-3); }
+  .ba__head .v-display--md { font-size: clamp(1.7rem, 1.2rem + 2vw, 2.9rem); }
+  .ba__head p { color: var(--v-ink-soft); max-width: 34ch; font-size: var(--v-t-sm); text-wrap: pretty; }
+  .ba__stage { position: relative; min-height: 0; }
+  .ba__pair { position: absolute; inset: 0; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, .6fr); gap: var(--v-8); align-items: center; }
+  .ba__frame { position: relative; justify-self: start; width: min(100%, calc((100svh - 15rem) * 4 / 3)); aspect-ratio: 4 / 3; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); background: var(--v-surface); }
+  .ba__frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  /* --k: 0 → видно «до», 1 → «после»; своя шкала у каждой пары */
+  .ba__pair--1 { --k: clamp(0, (var(--v-p, 0) - .06) / .32, 1); }
+  .ba__pair--2 { --k: clamp(0, (var(--v-p, 0) - .58) / .32, 1); }
+  .ba__after { clip-path: inset(0 calc((1 - var(--k)) * 100%) 0 0); }
+  .ba__line { position: absolute; inset: 0; pointer-events: none; transform: translateX(calc(var(--k) * 100%)); }
+  .ba__line::before { content: ""; position: absolute; left: -1px; top: 0; bottom: 0; width: 2px; background: var(--v-surface); box-shadow: 0 0 0 1px rgb(var(--v-shadow-color) / .12); }
+  .ba__tag { position: absolute; top: var(--v-4); z-index: 2; padding: .3em .8em; border-radius: 999px; background: var(--v-canvas-85); font-size: var(--v-t-xs); font-weight: 600; letter-spacing: var(--v-track-wide); text-transform: uppercase; color: var(--v-ink); }
+  .ba__tag--do { right: var(--v-4); opacity: calc(1 - var(--k)); }
+  .ba__tag--posle { left: var(--v-4); opacity: var(--k); }
+  .ba__cap { display: grid; gap: var(--v-3); }
+  .ba__cap h3 { font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-lg); line-height: 1.15; text-wrap: balance; }
+  .ba__cap p { color: var(--v-ink-soft); text-wrap: pretty; max-width: 34ch; }
+  .ba__cap dl { display: grid; grid-template-columns: auto 1fr; gap: .35em var(--v-4); font-size: var(--v-t-sm); margin-top: var(--v-2); }
+  .ba__cap dt { color: var(--v-ink-soft); }
+  .ba__cap dd { margin: 0; font-weight: 600; }
+  @media (max-width: 860px) {
+    .ba { padding-top: 4.5rem; gap: var(--v-4); }
+    .ba__head { grid-template-columns: 1fr; gap: var(--v-2); }
+    .ba__head .v-display--md { font-size: var(--v-t-xl); }
+    .ba__head p { display: none; }
+    .ba__pair { grid-template-columns: 1fr; grid-template-rows: auto auto; align-content: start; gap: var(--v-4); }
+    .ba__frame { width: 100%; }
+    .ba__cap h3 { font-size: var(--v-t-base); }
+    .ba__cap p { font-size: var(--v-t-sm); }
+  }
+
+  /* ---- 4 · отзывы с Яндекс.Карт (честные слоты) -------------------------- */
+  @property --r { syntax: "<number>"; inherits: false; initial-value: 0; }
+  .reviews__head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--v-6) var(--v-8); align-items: end; margin-bottom: var(--v-7); }
+  .reviews__head .v-label { display: block; margin-bottom: var(--v-3); }
+  .reviews__rating { display: grid; grid-template-columns: auto auto; gap: var(--v-1) var(--v-4); align-items: center; font-size: var(--v-t-sm); }
+  .reviews__num { grid-row: 1 / span 2; font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-2xl); line-height: 1; color: var(--v-ink); letter-spacing: -.02em; }
+  .reviews__rating a { color: var(--v-ink); display: inline-block; padding-block: .55em; }
+  .reviews__stars { --size: 1.1rem; display: inline-block; width: calc(var(--size) * 5); height: var(--size);
+    background: linear-gradient(90deg, var(--v-accent) calc(var(--r, 0) / 5 * 100%), var(--v-hair-strong) 0);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z'/%3E%3C/svg%3E") 0 0 / var(--size) var(--size) repeat-x;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z'/%3E%3C/svg%3E") 0 0 / var(--size) var(--size) repeat-x; }
+  .reviews__stars--sm { --size: .8rem; vertical-align: middle; }
+  .reviews__list { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: var(--v-6); align-items: start; }
+  .reviews__item { padding-top: var(--v-5); border-top: 1px solid var(--v-hair); }
+  .reviews__item--big .reviews__text { font-size: var(--v-t-lg); line-height: 1.4; }
+  .reviews__text { text-wrap: pretty; }
+  .reviews__meta { margin-top: var(--v-4); font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .reviews__meta b { color: var(--v-ink); font-weight: 600; }
+  .reviews__fact { margin-top: var(--v-2); font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  @media (max-width: 860px) {
+    .reviews__list { grid-template-columns: 1fr; }
+    .reviews__head { grid-template-columns: 1fr; align-items: start; margin-bottom: var(--v-6); }
+    .reviews__rating { grid-template-columns: auto 1fr; }
+    .reviews__num { font-size: var(--v-t-xl); }
+  }
+
+  /* ---- 5 · мастера: реплики встык, портрет сменяется ---------------------- */
+  .mas { height: 100%; display: grid; grid-template-rows: auto 1fr; padding: clamp(4.5rem, 11vh, 6.5rem) var(--v-gutter) clamp(2rem, 6vh, 4rem); gap: var(--v-5); }
+  .mas__head { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: var(--v-6); }
+  .mas__head .v-label { display: block; margin-bottom: var(--v-3); }
+  .mas__head .v-display--md { font-size: clamp(1.7rem, 1.2rem + 2vw, 2.9rem); }
+  .mas__index { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--v-3); font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-sm); }
+  .mas__index li { --on: clamp(0, min((var(--v-p, 0) - var(--a)) * 10 + 1, (var(--b) - var(--v-p, 0)) * 10 + 1), 1);
+    width: 2.6rem; height: 2.6rem; display: grid; place-items: center; border-radius: 50%; box-shadow: inset 0 0 0 1px var(--v-hair-strong);
+    background: color-mix(in oklab, var(--v-accent) calc(var(--on) * 100%), transparent); color: color-mix(in oklab, var(--v-accent-ink) calc(var(--on) * 100%), var(--v-ink-soft)); }
+  .mas__body { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: var(--v-9); align-items: center; min-height: 0; }
+  .mas__copy { position: relative; min-height: 22rem; }
+  .mas__one { position: absolute; inset: auto 0 0 0; display: grid; gap: var(--v-3); max-width: 40rem; }
+  .mas__one .v-label { color: var(--v-ink-soft); }
+  .mas__one .v-display--lg { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.6rem); }
+  .mas__one p { color: var(--v-ink-soft); max-width: 46ch; text-wrap: pretty; }
+  .mas__facts { display: grid; gap: .3em; font-size: var(--v-t-sm); margin-top: var(--v-2); }
+  .mas__facts li { display: flex; flex-wrap: wrap; gap: .3em .6em; align-items: baseline; }
+  .mas__facts li::before { content: ""; width: 1.2rem; height: 1px; background: var(--v-accent); align-self: center; }
+  .mas__facts b { font-weight: 600; }
+  .mas__facts span { color: var(--v-ink-soft); }
+  .mas__cta { margin-top: var(--v-3); }
+  .mas__fig { position: relative; justify-self: end; width: min(100%, calc((100svh - 17rem) * .75), 30rem); aspect-ratio: 3 / 4; }
+  .mas__fig figure { position: absolute; inset: 0; margin: 0; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); background: var(--v-surface); }
+  .mas__fig img { width: 100%; height: 100%; object-fit: cover; }
+  @media (max-width: 860px) {
+    .mas { padding-top: 4.5rem; gap: var(--v-4); }
+    .mas__head { align-items: center; }
+    .mas__head .v-display--md { font-size: var(--v-t-xl); }
+    .mas__head .v-label { margin-bottom: var(--v-1); }
+    .mas__index li { width: 2.1rem; height: 2.1rem; }
+    .mas__body { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 1fr; gap: var(--v-4); align-items: start; }
+    .mas__fig { order: -1; justify-self: start; width: 100%; aspect-ratio: auto; height: 32svh; }
+    .mas__copy { min-height: 0; }
+    .mas__one { inset: 0 0 auto 0; gap: var(--v-2); }
+    .mas__one .v-display--lg { font-size: var(--v-t-xl); }
+    .mas__one p { font-size: var(--v-t-sm); }
+  }
+  @media (max-width: 600px) and (max-height: 760px) { .mas__fig { height: 26svh; } .mas__one p { display: none; } }
+
+  /* ---- 6 · как проходит запись: широкий кадр с параллаксом и четыре шага ------ */
+  .kak__fig { position: relative; aspect-ratio: 21 / 9; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); background: var(--v-surface); margin: 0 0 var(--v-8); }
+  .kak__fig .v-layer { inset: -18% 0; }
+  .kak__fig img { width: 100%; height: 100%; left: 0; top: 0; object-fit: cover; object-position: 50% 55%; }
+  .kak { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: var(--v-7) var(--v-9); align-items: start; }
+  .kak__head { display: grid; gap: var(--v-3); position: sticky; top: clamp(5rem, 12vh, 7rem); }
+  .kak__head p { color: var(--v-ink-soft); max-width: 34ch; text-wrap: pretty; }
+  .step { padding: var(--v-5) 0; border-top: 1px solid var(--v-hair); display: grid; grid-template-columns: 2.6rem minmax(0, .5fr) minmax(0, 1fr); gap: var(--v-2) var(--v-5); align-items: baseline; }
+  .step:last-child { border-bottom: 1px solid var(--v-hair); }
+  .step i { font-style: normal; font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .step b { font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-lg); line-height: 1.15; }
+  .step span { color: var(--v-ink-soft); text-wrap: pretty; max-width: 48ch; }
+  @media (max-width: 860px) {
+    .kak__fig { aspect-ratio: 4 / 3; margin-bottom: var(--v-6); }
+    .kak { grid-template-columns: 1fr; gap: var(--v-5); }
+    .kak__head { position: static; }
+    .step { grid-template-columns: 2rem minmax(0, 1fr); gap: var(--v-1) var(--v-3); }
+    .step span { grid-column: 2; }
+    .step b { font-size: var(--v-t-base); }
+  }
+
+  /* ---- 7 · форма заявки -------------------------------------------------- */
+  .zay { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: var(--v-8) var(--v-9); align-items: start; }
+  .zay__head { display: grid; gap: var(--v-3); margin-bottom: var(--v-6); }
+  .zay__head .v-display--lg { font-size: clamp(1.9rem, 1.2rem + 2vw, 3rem); }
+  .form .v-btn { background: var(--v-accent); color: var(--v-accent-ink); border: 0; cursor: pointer; font-family: inherit; }
+  .zay__head p { color: var(--v-ink-soft); max-width: 40ch; text-wrap: pretty; }
+  .zay__fig { margin: 0; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); aspect-ratio: 3 / 4; max-width: 26rem; background: var(--v-surface); }
+  .zay__fig img { width: 100%; height: 100%; object-fit: cover; }
+  .form { padding: var(--v-7); border-radius: var(--v-radius); background: var(--v-surface); box-shadow: var(--v-e2); display: grid; grid-template-columns: 1fr 1fr; gap: var(--v-5) var(--v-5); }
+  .form label, .form fieldset { display: grid; gap: .45em; margin: 0; border: 0; padding: 0; min-width: 0; }
+  .form .wide { grid-column: 1 / -1; }
+  .form label > span, .form legend { font-size: var(--v-t-sm); font-weight: 500; color: var(--v-ink); padding: 0; margin-bottom: .45em; }
+  .form input[type="text"], .form input[type="tel"], .form select, .form textarea {
+    font: inherit; color: var(--v-ink); background: var(--v-canvas); border: 1px solid var(--v-hair-strong); border-radius: calc(var(--v-radius) - 4px);
+    min-height: 48px; padding: .6em .85em; width: 100%; transition: border-color .15s var(--v-ease-out), box-shadow .15s var(--v-ease-out); }
+  .form textarea { min-height: 5.5rem; resize: vertical; }
+  .form input:focus-visible, .form select:focus-visible, .form textarea:focus-visible { outline: none; border-color: var(--v-accent); box-shadow: 0 0 0 3px var(--v-accent-10); }
+  .pet { display: flex; gap: var(--v-2); flex-wrap: wrap; }
+  .pet label { display: block; }
+  .pet input { position: absolute; opacity: 0; pointer-events: none; }
+  .form .pet span { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.1em; border-radius: 999px; border: 1px solid var(--v-hair-strong); font-size: var(--v-t-sm); cursor: pointer;
+    transition: background-color .15s var(--v-ease-out), color .15s var(--v-ease-out); }
+  .form .pet input:checked + span { background: var(--v-accent); color: var(--v-accent-ink); border-color: var(--v-accent); }
+  .pet input:focus-visible + span { box-shadow: 0 0 0 3px var(--v-accent-10); }
+  .form__foot { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-2); }
+  .form__note { font-size: var(--v-t-xs); color: var(--v-ink-soft); max-width: 40ch; }
+  .form__note a { color: var(--v-ink); }
+  .form__done { grid-column: 1 / -1; display: none; padding: var(--v-4) var(--v-5); border-radius: calc(var(--v-radius) - 4px); background: var(--v-accent-10); }
+  .form.is-sent .form__done { display: block; }
+  @media (max-width: 860px) {
+    .zay { grid-template-columns: 1fr; gap: var(--v-6); }
+    .zay__fig { display: none; }
+    .zay__head { margin-bottom: 0; }
+    .form { grid-template-columns: 1fr; padding: var(--v-5); gap: var(--v-4); }
+  }
+
+  /* ---- 8 · контакты и карта (финал держит реплику, футер внутри сцены) ------ */
+  .close { height: 100%; display: grid; grid-template-rows: 1fr auto; padding: 0 var(--v-gutter);
+    background: radial-gradient(60rem 40rem at calc(var(--v-mx, .5) * 100%) calc(var(--v-my, .5) * 100%), var(--v-accent-10), transparent 60%); }
+  .close__inner { align-self: center; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--v-8); align-items: center; padding-top: var(--v-9); }
+  .close__inner .v-display { margin-bottom: var(--v-5); }
+  .close__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-6); }
+  .close__tel { font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-xl); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; color: var(--v-ink); letter-spacing: -.01em; }
+  .close__meta { display: grid; grid-template-columns: 1fr 1fr; gap: var(--v-4) var(--v-6); color: var(--v-ink-soft); font-size: var(--v-t-sm); margin-top: var(--v-6); }
+  .close__meta b { color: var(--v-ink); font-weight: 600; display: block; font-size: var(--v-t-xs); letter-spacing: var(--v-track-wide); text-transform: uppercase; margin-bottom: .2em; }
+  .close__meta a { color: var(--v-ink); display: inline-flex; align-items: center; min-height: 44px; }
+  .map { position: relative; aspect-ratio: 4 / 3; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); background: var(--v-surface);
+    background-image: linear-gradient(var(--v-hair) 1px, transparent 1px), linear-gradient(90deg, var(--v-hair) 1px, transparent 1px); background-size: 48px 48px; }
+  .map::before { content: ""; position: absolute; left: -10%; right: -10%; top: 58%; height: 14px; background: var(--v-canvas); transform: rotate(-8deg); box-shadow: 0 0 0 1px var(--v-hair); }
+  .map::after { content: ""; position: absolute; top: -10%; bottom: -10%; left: 38%; width: 10px; background: var(--v-canvas); transform: rotate(12deg); box-shadow: 0 0 0 1px var(--v-hair); }
+  .map__pin { position: absolute; z-index: 1; left: 50%; top: 46%; transform: translate(-50%, -100%); width: 34px; height: 34px; border-radius: 50% 50% 50% 0; rotate: -45deg; background: var(--v-accent); box-shadow: var(--v-e1); }
+  .map__pin::after { content: ""; position: absolute; inset: 11px; border-radius: 50%; background: var(--v-accent-ink); }
+  .map__cap { position: absolute; z-index: 1; left: var(--v-4); right: var(--v-4); bottom: var(--v-4); padding: .6em .9em; border-radius: calc(var(--v-radius) - 4px); background: var(--v-canvas-85); box-shadow: 0 0 0 1px var(--v-hair); font-size: var(--v-t-sm); color: var(--v-ink); }
+  .foot { display: flex; justify-content: space-between; gap: var(--v-4); padding: var(--v-6) 0; border-top: 1px solid var(--v-hair); font-size: var(--v-t-xs); color: var(--v-ink-soft); flex-wrap: wrap; }
+  @media (max-width: 860px) {
+    .close { padding-bottom: env(safe-area-inset-bottom); }
+    .close__inner { grid-template-columns: 1fr; gap: var(--v-5); padding-top: 4.5rem; align-items: start; }
+    .close__inner .v-display { margin-bottom: var(--v-3); font-size: var(--v-t-xl); }
+    .close__cta { margin-top: var(--v-4); }
+    .close__tel { font-size: var(--v-t-lg); }
+    .close__meta { margin-top: var(--v-4); gap: var(--v-2) var(--v-4); }
+    .close__meta b { font-size: .9375rem; }
+    .map { aspect-ratio: 16 / 9; }
+    .foot { padding: var(--v-4) 0; }
+    .foot__more { display: none; }
+  }
+
+  /* ---- виджет-сотрудник: отвечаем сразу, круглосуточно ------------------- */
+  .agent { position: fixed; right: clamp(12px, 2vw, 28px); bottom: clamp(12px, 2.4vh, 28px); z-index: 60;
+    display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--v-ink, #1a1a1a); }
+  .agent__bubble { display: grid; gap: 2px; padding: 10px 16px; border-radius: 16px 16px 4px 16px;
+    background: var(--v-surface, #fff); box-shadow: 0 10px 30px rgb(var(--v-shadow-color, 0 0 0) / .45), 0 0 0 1px rgb(255 255 255 / .06);
+    font-family: var(--v-font-text, inherit); line-height: 1.25; max-width: 15rem;
+    opacity: 0; transform: translateY(8px); animation: agent-in .5s 1.4s cubic-bezier(.2,.7,.2,1) forwards; }
+  .agent__bubble b { font-size: .95rem; font-weight: 700; }
+  .agent__bubble span { font-size: .8rem; color: var(--v-ink-soft, #666); }
+  .agent__photo { position: relative; flex: none; width: 64px; height: 64px; border-radius: 50%;
+    box-shadow: 0 0 0 3px var(--v-accent, #2fbf5b), 0 10px 26px rgb(0 0 0 / .45); transition: transform .2s ease-out; }
+  .agent__photo img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; }
+  .agent__photo::before { content: ""; position: absolute; inset: -3px; border-radius: 50%; border: 2px solid var(--v-accent, #2fbf5b);
+    animation: agent-pulse 2.6s ease-out infinite; pointer-events: none; }
+  .agent__photo i { position: absolute; right: 1px; bottom: 1px; width: 15px; height: 15px; border-radius: 50%;
+    background: #2fbf5b; box-shadow: 0 0 0 3px var(--v-surface, #fff); }
+  .agent:hover .agent__photo, .agent:focus-visible .agent__photo { transform: scale(1.05); }
+  .agent:focus-visible { outline: 2px solid var(--v-accent, #2fbf5b); outline-offset: 4px; border-radius: 40px; }
+  @keyframes agent-in { to { opacity: 1; transform: none; } }
+  @keyframes agent-pulse { 0% { opacity: .8; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(1.35); } }
+  .agent__photo b { display: none; position: absolute; left: 50%; bottom: -9px; transform: translateX(-50%); padding: 1px 6px; border-radius: 8px;
+    background: var(--v-accent, #2fbf5b); color: var(--v-accent-ink, #fff); font: 700 10px/1.4 var(--v-font-text, sans-serif); white-space: nowrap; }
+  @media (max-width: 600px) {
+    .agent__bubble { display: none; }
+    .agent__photo { width: 54px; height: 54px; }
+    .agent__photo i { right: -2px; bottom: auto; top: 0; width: 13px; height: 13px; }
+    .agent__photo b { display: block; }
+  }
+  @media (prefers-reduced-motion: reduce) { .agent__bubble { animation: none; opacity: 1; transform: none; } .agent__photo::before { animation: none; opacity: 0; } }
+</style>
+</head>
+<body>
+<div class="v-page">
+  <span data-v-progress></span>
+
+  <header class="bar">
+    <a class="bar__mark" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="21" rx="7" ry="6"/><circle cx="7" cy="13" r="3"/><circle cx="13" cy="8" r="3"/><circle cx="19" cy="8" r="3"/><circle cx="25" cy="13" r="3"/></svg>Мокрый нос</a>
+    <nav class="bar__nav" aria-label="Разделы">
+      <a href="#ceny">Цены</a><a href="#raboty">Работы</a><a href="#mastera">Мастера</a><a href="#kontakty">Контакты</a>
+    </nav>
+    <div class="bar__right">
+      <a class="bar__tel" href="tel:{{телефон}}">{{телефон}}</a>
+      <a class="v-btn" href="#zayavka">Записаться</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 1 · ПЕРВЫЙ ЭКРАН (вариант Б): кадр салона со шторкой снизу, текст на пустой стене -->
+    <section id="top" class="hero" data-v-act="flow" data-v-drift="#f4efe6" aria-label="Груминг собак и кошек">
+      <figure class="hero__fig" data-v-reveal="up" data-v-reveal-at="0 0.35">
+        <picture>
+          <source media="(max-width: 860px)" srcset="assets/hero-b-m.webp">
+          <img src="assets/hero-b.webp" alt="Светлый груминг-салон: стол для стрижки, ванна и полка с инструментами, на столе сидит подстриженный пудель" width="1920" height="1080" fetchpriority="high">
+        </picture>
+      </figure>
+      <div class="hero__wash" aria-hidden="true"></div>
+      <div class="hero__copy" data-v-in data-v-stagger="70">
+        <div class="demo-for"><img src="assets/zakazchik.jpg" alt="" width="40" height="40"><span>Демо для Татьяны · по заказу «Лендинг для грумминг салона»</span></div>
+        <span class="v-label hero__label">Стрижка · мытьё · когти</span>
+        <h1 class="v-display v-display--xl">Груминг собак и кошек в {{город}}: цена известна заранее</h1>
+        <p class="v-lede">Один мастер от начала до конца. Цену называем по фото питомца до записи – на выдаче она та же, без доплат «за колтуны».</p>
+        <div class="hero__cta">
+          <a class="v-btn" href="#zayavka">Записаться</a>
+          <a class="hero__tel" href="tel:{{телефон}}">или позвоните <b>{{телефон}}</b></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · УСЛУГИ И ЦЕНЫ -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#faf6ef" id="ceny" aria-label="Услуги и цены">
+      <div class="v-wrap prices">
+        <div>
+          <div class="prices__head" data-v-in data-v-stagger="60">
+            <span class="v-label">Услуги и цены</span>
+            <h2 class="v-display v-display--lg">Цена по фото – та же на выдаче</h2>
+            <p class="v-body v-soft">Пришлите фото питомца до записи: по нему назовём точную цену и время. Колтуны и длину шерсти видим заранее, а не на столе.</p>
+          </div>
+          <p class="pgroup">Собаки</p>
+          <ul class="plist" data-v-in data-v-stagger="50">
+            <li><span class="name">Комплекс, малые породы</span><span class="time">до 10 кг · 2 часа</span><span class="price v-nums">от {{цена}}&nbsp;₽</span><span class="note">Мытьё, сушка, стрижка по породе или по вашему фото, когти, уши, гигиена.</span></li>
+            <li><span class="name">Комплекс, средние породы</span><span class="time">10–25 кг · 2,5–3 часа</span><span class="price v-nums">от {{цена}}&nbsp;₽</span><span class="note">То же, что в малом комплексе. Точная цена – по фото до записи.</span></li>
+            <li><span class="name">Комплекс, крупные породы</span><span class="time">от 25 кг · 3–4 часа</span><span class="price v-nums">от {{цена}}&nbsp;₽</span><span class="note">Большой стол с подъёмником, сушка компрессором.</span></li>
+            <li><span class="name">Экспресс-линька</span><span class="time">1,5–2 часа</span><span class="price v-nums">от {{цена}}&nbsp;₽</span><span class="note">Мытьё и вычёсывание подшёрстка, без стрижки. Для хаски, корги, шпицев, лабрадоров.</span></li>
+            <li><span class="name">Гигиеническая стрижка</span><span class="time">45 минут</span><span class="price v-nums">{{цена}}&nbsp;₽</span><span class="note">Лапы, морда, зона под хвостом – между полными стрижками.</span></li>
+          </ul>
+          <p class="pgroup">Кошки</p>
+          <ul class="plist" data-v-in data-v-stagger="50">
+            <li><span class="name">Комплекс для кошки</span><span class="time">1,5 часа</span><span class="price v-nums">от {{цена}}&nbsp;₽</span><span class="note">Мытьё, сушка, вычёсывание, когти. Стрижка – по желанию.</span></li>
+            <li><span class="name">Стрижка кошки</span><span class="time">1 час</span><span class="price v-nums">от {{цена}}&nbsp;₽</span><span class="note">«Под льва» или гигиеническая. Работаем без спешки, с перерывами.</span></li>
+          </ul>
+          <p class="pgroup">Отдельно</p>
+          <ul class="plist" data-v-in data-v-stagger="50">
+            <li><span class="name">Когти</span><span class="time">15 минут</span><span class="price v-nums">{{цена}}&nbsp;₽</span><span class="note">Собакам и кошкам, без записи на комплекс.</span></li>
+            <li><span class="name">Мытьё и сушка</span><span class="time">1 час</span><span class="price v-nums">от {{цена}}&nbsp;₽</span><span class="note">Шампунь по типу шерсти, без стрижки.</span></li>
+          </ul>
+          <ul class="terms" data-v-in data-v-stagger="60">
+            <li><span><b>Цена по фото</b> – та же на выдаче: колтуны и длину видим до записи.</span></li>
+            <li><span><b>Один мастер</b> ведёт питомца от мытья до выдачи и не передаёт другому.</span></li>
+            <li><span><b>Если питомец нервничает</b> – делаем перерыв и звоним вам, а не держим силой.</span></li>
+          </ul>
+        </div>
+        <aside class="prices__aside" data-v-in data-v-in-self>
+          <div class="incl" data-v-tilt="5">
+            <span class="v-label">Что входит в комплекс</span>
+            <ul>
+              <li><b>Мытьё и сушка</b><span>Шампунь по типу шерсти, сушка без перегрева.</span></li>
+              <li><b>Стрижка</b><span>По стандарту породы или по вашему фото.</span></li>
+              <li><b>Когти, уши, гигиена</b><span>Без доплаты, отдельной строкой не идут.</span></li>
+              <li><b>Фото после</b><span>Пришлём в мессенджер, когда питомец готов.</span></li>
+            </ul>
+            <div><a class="v-btn" href="#zayavka">Записаться</a></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 3 · ФОТО РАБОТ ДО / ПОСЛЕ: фирменный ход – скролл ведёт шторку «после» поверх «до». Фото – заглушки, заменить настоящими работами салона -->
+    <section id="raboty" data-v-act="pin" data-v-span="2.4" data-v-drift="#f4efe6" aria-label="Работы до и после">
+      <div data-v-stage>
+        <div class="ba">
+          <div class="ba__head" data-v-cue="0 1 0 0" data-v-rise="0">
+            <div>
+              <span class="v-label">Работы</span>
+              <h2 class="v-display v-display--md">До и после – на одном кадре</h2>
+            </div>
+            <p>Прокрутите: шторка сама покажет, что было и что стало.</p>
+          </div>
+          <div class="ba__stage">
+            <div class="ba__pair ba__pair--1" data-v-cue="0 0.5 0 0.06" data-v-rise="0">
+              <div class="ba__frame">
+                <img src="assets/ba1-do.webp" alt="Той-пудель до стрижки: шерсть отросла и сбилась на лапах" width="1200" height="900" loading="lazy" decoding="async">
+                <img class="ba__after" src="assets/ba1-posle.webp" alt="Тот же пудель после комплекса: круглая голова, ровные лапы" width="1200" height="900" loading="lazy" decoding="async">
+                <span class="ba__line" aria-hidden="true"></span>
+                <span class="ba__tag ba__tag--do">До</span><span class="ba__tag ba__tag--posle">После</span>
+              </div>
+              <div class="ba__cap">
+                <h3>Той-пудель, колтуны на лапах</h3>
+                <p>Колтуны разобрали, где можно, остальное аккуратно состригли. Голова «мишкой» по фото хозяйки.</p>
+                <dl><dt>Услуга</dt><dd>Комплекс, малые породы</dd><dt>Время</dt><dd>2 часа</dd></dl>
+              </div>
+            </div>
+            <div class="ba__pair ba__pair--2" data-v-cue="0.48 1 0.06 0" data-v-rise="0">
+              <div class="ba__frame">
+                <img src="assets/ba2-do.webp" alt="Длинношёрстная кошка до груминга: свалявшаяся шерсть на боках" width="1200" height="900" loading="lazy" decoding="async">
+                <img class="ba__after" src="assets/ba2-posle.webp" alt="Та же кошка после: шерсть вычесана и блестит" width="1200" height="900" loading="lazy" decoding="async">
+                <span class="ba__line" aria-hidden="true"></span>
+                <span class="ba__tag ba__tag--do">До</span><span class="ba__tag ba__tag--posle">После</span>
+              </div>
+              <div class="ba__cap">
+                <h3>Кошка, свалявшиеся бока</h3>
+                <p>Мытьё и вычёсывание без стрижки налысо: шерсть сохранили, колтуны убрали.</p>
+                <dl><dt>Услуга</dt><dd>Комплекс для кошки</dd><dt>Время</dt><dd>1,5 часа</dd></dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · ОТЗЫВЫ с Яндекс.Карт (только настоящие, слоты; меньше трёх – удалить секцию целиком) -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#faf6ef" id="otzyvy" data-slot-optional aria-label="Отзывы клиентов">
+      <div class="v-wrap reviews">
+        <div class="reviews__head" data-v-in data-v-stagger="60">
+          <div>
+            <span class="v-label">Отзывы</span>
+            <h2 class="v-display v-display--md">Что пишут хозяева на Яндекс.Картах</h2>
+            <p class="reviews__fact">Скопированы с карточки без правок.</p>
+          </div>
+          <div class="reviews__rating">
+            <span class="reviews__num v-nums">{{рейтинг}}</span>
+            <span class="reviews__stars" style="--r: {{рейтинг}}" role="img" aria-label="рейтинг {{рейтинг}} из 5"></span>
+            <span><span class="v-soft">{{отзывов}} отзывов</span> · <a href="{{ссылка-карты}}" target="_blank" rel="noopener">Читать все отзывы</a></span>
+          </div>
+        </div>
+        <ul class="reviews__list" data-v-in data-v-stagger="90">
+          <li class="reviews__item reviews__item--big">
+            <p class="reviews__text">«{{отзыв 1}}»</p>
+            <p class="reviews__meta"><b>{{имя 1}}</b> · {{дата 1}} · <span class="reviews__stars reviews__stars--sm" style="--r: {{оценка 1}}" role="img" aria-label="оценка {{оценка 1}} из 5"></span></p>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__text">«{{отзыв 2}}»</p>
+            <p class="reviews__meta"><b>{{имя 2}}</b> · {{дата 2}} · <span class="reviews__stars reviews__stars--sm" style="--r: {{оценка 2}}" role="img" aria-label="оценка {{оценка 2}} из 5"></span></p>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__text">«{{отзыв 3}}»</p>
+            <p class="reviews__meta"><b>{{имя 3}}</b> · {{дата 3}} · <span class="reviews__stars reviews__stars--sm" style="--r: {{оценка 3}}" role="img" aria-label="оценка {{оценка 3}} из 5"></span></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5 · МАСТЕРА: три реплики встык, портрет сменяется (портреты – заглушки, заменить фотографиями настоящих мастеров) -->
+    <section id="mastera" data-v-act="pin" data-v-span="2.4" data-v-drift="#f4efe6" aria-label="Мастера">
+      <div data-v-stage>
+        <div class="mas">
+          <div class="mas__head" data-v-cue="0 1 0 0" data-v-rise="0">
+            <div>
+              <span class="v-label">Мастера</span>
+              <h2 class="v-display v-display--md">Кто будет с вашим питомцем</h2>
+            </div>
+            <ol class="mas__index" aria-hidden="true">
+              <li style="--a: 0; --b: .35">1</li>
+              <li style="--a: .34; --b: .69">2</li>
+              <li style="--a: .68; --b: 1">3</li>
+            </ol>
+          </div>
+          <div class="mas__body">
+            <div class="mas__copy">
+              <article class="mas__one" data-v-cue="0 0.36 0 0.06">
+                <span class="v-label">Мастер 1 · собаки малых пород</span>
+                <h3 class="v-display v-display--lg">{{мастер 1}}</h3>
+                <p>Пудели, бишоны, йорки, шпицы. Стрижка по стандарту породы или по фото, которое вы принесли, – обсуждаем до ножниц.</p>
+                <ul class="mas__facts">
+                  <li><b>Комплекс, малые породы</b><span>2 часа ·</span><span class="v-nums">от {{цена}} ₽</span></li>
+                  <li><b>Гигиеническая стрижка</b><span>45 минут ·</span><span class="v-nums">{{цена}} ₽</span></li>
+                </ul>
+                <div class="mas__cta"><a class="v-btn" href="#zayavka">Записаться</a></div>
+              </article>
+              <article class="mas__one" data-v-cue="0.34 0.7 0.06 0.06">
+                <span class="v-label">Мастер 2 · кошки</span>
+                <h3 class="v-display v-display--lg">{{мастер 2}}</h3>
+                <p>Мытьё, вычёсывание и стрижка кошек. Работает в тихом зале без собак, с перерывами, если кошка устала.</p>
+                <ul class="mas__facts">
+                  <li><b>Комплекс для кошки</b><span>1,5 часа ·</span><span class="v-nums">от {{цена}} ₽</span></li>
+                  <li><b>Когти</b><span>15 минут ·</span><span class="v-nums">{{цена}} ₽</span></li>
+                </ul>
+                <div class="mas__cta"><a class="v-btn" href="#zayavka">Записаться</a></div>
+              </article>
+              <article class="mas__one" data-v-cue="0.68 1 0.06 0">
+                <span class="v-label">Мастер 3 · крупные собаки и линька</span>
+                <h3 class="v-display v-display--lg">{{мастер 3}}</h3>
+                <p>Ретриверы, хаски, овчарки, самоеды. Вычёсывание подшёрстка и сушка компрессором на столе с подъёмником.</p>
+                <ul class="mas__facts">
+                  <li><b>Комплекс, крупные породы</b><span>3–4 часа ·</span><span class="v-nums">от {{цена}} ₽</span></li>
+                  <li><b>Экспресс-линька</b><span>1,5–2 часа ·</span><span class="v-nums">от {{цена}} ₽</span></li>
+                </ul>
+                <div class="mas__cta"><a class="v-btn" href="#zayavka">Записаться</a></div>
+              </article>
+            </div>
+            <div class="mas__fig">
+              <figure data-v-cue="0 0.36 0 0.06" data-v-rise="0">
+                <img src="assets/master-1.webp" srcset="assets/master-1-480.webp 480w, assets/master-1.webp 900w" sizes="(max-width: 860px) 100vw, 30rem" alt="Мастер-грумер с ножницами у стола, на столе бишон" width="900" height="1200" loading="lazy" decoding="async">
+              </figure>
+              <figure data-v-cue="0.34 0.7 0.06 0.06" data-v-rise="0">
+                <img src="assets/master-2.webp" srcset="assets/master-2-480.webp 480w, assets/master-2.webp 900w" sizes="(max-width: 860px) 100vw, 30rem" alt="Мастер вычёсывает британскую кошку" width="900" height="1200" loading="lazy" decoding="async">
+              </figure>
+              <figure data-v-cue="0.68 1 0.06 0" data-v-rise="0">
+                <img src="assets/master-3.webp" srcset="assets/master-3-480.webp 480w, assets/master-3.webp 900w" sizes="(max-width: 860px) 100vw, 30rem" alt="Мастер сушит золотистого ретривера компрессором" width="900" height="1200" loading="lazy" decoding="async">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · КАК ПРОХОДИТ ЗАПИСЬ: широкий кадр с параллаксом, четыре шага -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#faf6ef" id="kak" aria-label="Как проходит запись">
+      <div class="v-wrap">
+        <figure class="kak__fig">
+          <div class="v-layer" data-v-parallax="0.4">
+            <img src="assets/visit.webp" srcset="assets/visit-900.webp 900w, assets/visit.webp 1600w" sizes="(max-width: 860px) 100vw, 76rem" alt="Стойка груминг-салона: полотенце, щётка, поводок и миска с лакомством, рядом сидит подстриженный корги" width="1600" height="900" loading="lazy" decoding="async">
+          </div>
+        </figure>
+        <div class="kak">
+          <div class="kak__head" data-v-in data-v-stagger="60">
+            <span class="v-label">Как проходит запись</span>
+            <h2 class="v-display v-display--md">От фото питомца до «забирайте»</h2>
+            <p>Четыре шага. Первый занимает минуту и делается с телефона.</p>
+          </div>
+          <ol data-v-in data-v-stagger="80">
+            <li class="step"><i>1</i><b>Фото питомца</b><span>Оставьте заявку ниже или напишите в мессенджер: порода, вес, фото шерсти сбоку.</span></li>
+            <li class="step"><i>2</i><b>Цена и время</b><span>По фото назовём точную цену и сколько займёт, предложим ближайшие окна у мастера.</span></li>
+            <li class="step"><i>3</i><b>Приём при вас</b><span>Мастер осматривает шерсть и кожу при вас. Можно подождать в салоне или уйти по делам.</span></li>
+            <li class="step"><i>4</i><b>Фото и выдача</b><span>Пришлём фото, когда питомец готов. Оплата – по названной цене, без доплат на месте.</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · ФОРМА ЗАЯВКИ (в демо заявка никуда не уходит; подключить отправку в Telegram или на почту) -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f4efe6" id="zayavka" aria-label="Записаться">
+      <div class="v-wrap zay">
+        <div>
+          <div class="zay__head" data-v-in data-v-stagger="60">
+            <span class="v-label">Запись</span>
+            <h2 class="v-display v-display--lg">Расскажите о питомце</h2>
+            <p>Перезвоним в рабочее время, назовём цену и предложим окно. Фото можно прислать потом в мессенджер – там отвечаем сразу, круглосуточно.</p>
+          </div>
+          <figure class="zay__fig" data-v-reveal="up" data-v-reveal-at="0.15 0.45">
+            <img src="assets/bath.webp" srcset="assets/bath-600.webp 600w, assets/bath.webp 1000w" sizes="26rem" alt="Мальтезе после мытья, завёрнутый в полотенце" width="1000" height="1333" loading="lazy" decoding="async">
+          </figure>
+        </div>
+        <form class="form" data-v-in data-v-in-self action="{{куда-заявки}}" method="post" novalidate>
+          <label><span>Ваше имя</span><input type="text" name="name" autocomplete="name" required></label>
+          <label><span>Телефон</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+7" required></label>
+          <fieldset class="wide">
+            <legend>Кто придёт</legend>
+            <div class="pet">
+              <label><input type="radio" name="pet" value="Собака" checked><span>Собака</span></label>
+              <label><input type="radio" name="pet" value="Кошка"><span>Кошка</span></label>
+            </div>
+          </fieldset>
+          <label><span>Порода и вес</span><input type="text" name="breed" placeholder="Шпиц, 3 кг"></label>
+          <label><span>Услуга</span>
+            <select name="service">
+              <option>Комплекс</option>
+              <option>Экспресс-линька</option>
+              <option>Гигиеническая стрижка</option>
+              <option>Мытьё и сушка</option>
+              <option>Когти</option>
+              <option>Не знаю, подскажите</option>
+            </select>
+          </label>
+          <label class="wide"><span>Удобный день и комментарий</span><textarea name="comment" placeholder="Например: в субботу утром, есть колтуны за ушами"></textarea></label>
+          <div class="form__foot">
+            <button class="v-btn" type="submit">Записаться</button>
+            <p class="form__note">Нажимая кнопку, вы соглашаетесь с <a href="{{ссылка-политики}}" target="_blank" rel="noopener">обработкой персональных данных</a>.</p>
+          </div>
+          <p class="form__done" role="status">Спасибо! Заявка принята – перезвоним в рабочее время и назовём цену.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- 8 · КОНТАКТЫ И КАРТА (финал держит реплику) -->
+    <section data-v-act="pin" data-v-span="1.3" data-v-drift="#faf6ef" id="kontakty" aria-label="Контакты и карта">
+      <div data-v-stage>
+        <div class="close" data-v-spotlight>
+          <div class="close__inner">
+            <div data-v-cue="0.04">
+              <h2 class="v-display v-display--lg">Приходите с хвостом</h2>
+              <p class="v-lede">Работаем по записи. Позвоните или оставьте заявку – ответим ближайшим окном.</p>
+              <div class="close__cta">
+                <a class="v-btn" href="#zayavka" data-v-magnet="0.22" data-v-rise="0">Записаться</a>
+                <a class="close__tel" href="tel:{{телефон}}">{{телефон}}</a>
+              </div>
+              <div class="close__meta">
+                <span><b>Адрес</b>{{адрес}}, {{город}}</span>
+                <span><b>Часы работы</b>{{часы}}, по записи</span>
+                <span><b>Мессенджер</b><a href="{{ссылка-мессенджера}}" target="_blank" rel="noopener">Написать в Telegram</a></span>
+                <span><b>Как добраться</b><a href="{{ссылка-карты}}" target="_blank" rel="noopener">Открыть в Яндекс.Картах</a></span>
+              </div>
+            </div>
+            <div class="map" data-v-cue="0.1" role="img" aria-label="Карта: здесь будет виджет Яндекс.Карт с адресом салона">
+              <span class="map__pin" aria-hidden="true"></span>
+              <span class="map__cap">Здесь встанет Яндекс.Карта с меткой салона – по адресу {{адрес}}</span>
+            </div>
+          </div>
+          <footer class="foot">
+            <span>Мокрый нос · {{город}}</span>
+            <span data-slot-optional>{{юрлицо}} · ИНН {{ИНН}}</span>
+            <span class="foot__more">Груминг собак и кошек по записи</span>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- agent-widget -->
+  <a class="agent" href="#zayavka" aria-label="Написать нам: отвечаем сразу, круглосуточно">
+    <span class="agent__bubble"><b>Отвечаем сразу</b><span>круглосуточно, администратор на связи</span></span>
+    <span class="agent__photo"><img src="assets/agent.webp" alt="" width="64" height="64" loading="lazy"><i aria-hidden="true"></i><b aria-hidden="true">24/7</b></span>
+  </a>
+  <!-- /agent-widget -->
+</div>
+
+<script src="vibe.js"></script>
+<script>
+  // На телефоне пины короче: правим атрибут до монтирования.
+  if (window.matchMedia('(max-width: 860px)').matches) {
+    document.getElementById('raboty').setAttribute('data-v-span', '2.2');
+    document.getElementById('mastera').setAttribute('data-v-span', '2.2');
+  }
+  Vibe.mount(document.querySelector('.v-page'));
+
+  // Шапка: подложка после 40 px прокрутки.
+  (function () {
+    var bar = document.querySelector('.bar'), on = null;
+    function tick() { var s = window.scrollY > 40; if (s !== on) { on = s; bar.classList.toggle('is-scrolled', s); } }
+    window.addEventListener('scroll', tick, { passive: true }); tick();
+  })();
+
+  // Форма (демо): проверяем имя и телефон и показываем «спасибо». Отправку подключить к Telegram-боту или почте.
+  (function () {
+    var f = document.querySelector('.form');
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var bad = null;
+      [f.elements.namedItem("name"), f.elements.namedItem("phone")].forEach(function (el) { var ok = el.value.trim().length > 1; el.setAttribute('aria-invalid', ok ? 'false' : 'true'); if (!ok && !bad) bad = el; });
+      if (bad) { bad.focus(); return; }
+      f.classList.add('is-sent');
+    });
+  })();
+</script>
+</body>
+</html>
